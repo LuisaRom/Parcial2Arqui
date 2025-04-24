@@ -1,5 +1,4 @@
 package com.example.Parcial2.Service.ServiceImpl;
-
 import com.example.Parcial2.Model.Jugador;
 import com.example.Parcial2.Repository.JugadorRepository;
 import com.example.Parcial2.Service.JugadorService;

@@ -1,11 +1,9 @@
 package com.example.Parcial2.Controller;
-
 import com.example.Parcial2.Model.Jugador;
 import com.example.Parcial2.Repository.JugadorRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
 @RestController
 @RequestMapping("/jugadores")
 public class JugadorController {

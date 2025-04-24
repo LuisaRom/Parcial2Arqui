@@ -21,3 +21,4 @@ public interface JugadorRepository extends JpaRepository<Jugador, Integer> {
     """, nativeQuery = true)
     List<Jugador> findJugadoresConMasDeXGoles(int goles);
 }
+

@@ -1,11 +1,9 @@
 package com.example.Parcial2.Controller;
-
 import com.example.Parcial2.Model.Partido;
 import com.example.Parcial2.Repository.PartidoRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
 @RestController
 @RequestMapping("/partidos")
 public class PartidoController {
